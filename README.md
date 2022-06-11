@@ -8,7 +8,7 @@ UlaModule is a small, fast, dependency-less package for producing an Ulam spiral
 
 An [Ulam Spiral](https://en.wikipedia.org/wiki/Ulam_spiral) is a type of spiral that consists of a grid of points labeled with positive integers.
 
-![A rendition of the Ulam spiral, with the center colored in black and the primes colored in red. (Oops! this is alt text)](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fprimorial-sieve.com%2FPic_sav%2FUlam%2520spiral%25201.JPG&f=1&nofb=1)
+![A rendition of the Ulam spiral, with the center colored in black and the primes colored in red. (Oops! this is alt text)](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fprimorial-sieve.com%2FPic_sav%2FUlam%2520spiral%25201.JPG&f=1&nofb=1)  
 (credit: primordial-sieve.com)
 
 Note that the Ulam Spiral starts at 1. This isn't particularly convenient for indexing purposes, so this implementation will start with 0 as its start.
