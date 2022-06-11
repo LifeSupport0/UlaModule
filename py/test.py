@@ -3,8 +3,8 @@ import UlaModule
 def test(verbose:bool=False):
 	success, fail, total = 0,0,0
 	for n in range(100):
-		point = UlaModule.int_2_coord(n)
-		backwards = UlaModule.coord_2_int(point[0], point[1])
+		point = UlaModule.int_2_point(n)
+		backwards = UlaModule.point_2_int(point[0], point[1])
 		
 		if verbose:
 			print("{0} -> ({1},{2}) -> {3}".format(n, point[0], point[1], backwards))

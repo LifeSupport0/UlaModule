@@ -1,6 +1,6 @@
 from math import floor, sqrt
 
-def int_2_coord(num:int):
+def int_2_point(num:int):
 	point = [0,0]
 	# get largest square smaller than num
 	root = floor(sqrt(num))
@@ -27,7 +27,7 @@ def int_2_coord(num:int):
 		point[0] -= remainder
 	return point
 
-def coord_2_int(px:int,py:int):
+def point_2_int(px:int,py:int):
 	absx, absy = abs(px), abs(py)
 
 	root = max(absx, absy) * 2 - 1 * (px+py > 0)

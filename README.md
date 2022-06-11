@@ -26,7 +26,7 @@ Note that in order to translate this library's Ulam spiral into a traditional on
 
 ## How fast is UlaModule?
 
-Both functions (int-to-point and point-to-int) is O(1).
+Both functions (int-to-point and point-to-int) are constant time (O(1)).
 
 ## Why would I use UlaModule?
 
